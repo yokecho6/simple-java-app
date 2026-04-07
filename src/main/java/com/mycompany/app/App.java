@@ -10,7 +10,7 @@ public class App {
     public App() {}
 
     public static void main(String[] args) {
-        System.out.println("new change to demo Webhook on jenkins");
+        System.out.println("new change to demo email on jenkins");
     }
 
     public String getMessage() {
