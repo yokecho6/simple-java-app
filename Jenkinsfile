@@ -15,6 +15,12 @@ pipeline {
       }
     }
     
+    stage('Dummy') { 
+    steps { 
+    echo 'Meaningless statement to verify this in Jenkinsfile'             
+    } 
+    } 
+
     stage('Test') {
       steps {
         sh 'mvn test'            
